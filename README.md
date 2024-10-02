@@ -27,7 +27,7 @@ In this automation exercise, you'll automate core functionalities of the [Paraba
 Transfer Amount Between Accounts:
 * Automate the process of transferring funds between accounts by using data-driven testing to validate transfers with different amounts and account combinations.
 
-![Automation Demonstration](./output.gif)
+![Automation Demonstration](./parabank.gif)
 
 ### Built With
 * [Java 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) as programming language
