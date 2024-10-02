@@ -1,10 +1,10 @@
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Automation of SwagLab Web Application Using Selenium andTestNG</h1> 
+ <h1 align="center">Parabank Online Web Application (Data-Driven with Cucumber)</h1> 
 
   <p align="center">
-    A web automation project to automate testing process of SwagLab E-commerce Web Application built using Selenium and TestNG in Java.
+    A web automation project to automate testing process of Para Bank Web Application built using Selenium, TestNG and Cucumber in Java.
     <br /><br/>
     <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
@@ -19,11 +19,13 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-Automation of the [SwagLab e-commerce](https://www.saucedemo.com/) web application using Selenium and TestNG focuses on validating key functionalities like login, adding products to the cart, and placing an order. Selenium is employed for interacting with the web interface, while TestNG is used to manage test execution and reporting.
+In this automation exercise, you'll automate core functionalities of the [Parabank online banking application](https://parabank.parasoft.com/parabank/index.htm) using Selenium, TestNG, and Cucumber with Data-Driven Testing. The key test scenarios include:
 
-* Login Functionality: Automation scripts simulate a user logging in with valid credentials.
-* Add Product to Cart: The script selects a product, adds it to the cart, and validates that the cart updates correctly by verifying the product count and details.
-* Place Order: The automation flow proceeds to checkout, fills in the necessary shipping and payment details, and confirms the order.
+* Register a New Account: Automate the user registration process by filling out dynamic data (like name, address, and credentials) using data-driven testing from an external source or Cucumber's Scenario Outline. This allows testing registration with multiple sets of user data.
+* Log in to the Application: Log in with different sets of credentials to validate both successful and unsuccessful login attempts. Use data-driven testing to verify login functionality for multiple users.
+* Create a New Savings Account: Once logged in, automate the creation of a savings account using dynamic inputs for the account type and initial deposit, leveraging data-driven testing to validate different configurations.
+Transfer Amount Between Accounts:
+* Automate the process of transferring funds between accounts by using data-driven testing to validate transfers with different amounts and account combinations.
 
 ![Automation Demonstration](./output.gif)
 
@@ -32,12 +34,13 @@ Automation of the [SwagLab e-commerce](https://www.saucedemo.com/) web applicati
 * [Maven](https://maven.apache.org/) for Package Management and Build Automation
 * [Selenium](https://www.selenium.dev/) for Web Automation
 * [TestNG](https://testng.org/) for Java testing framework that supports annotations, parallel execution, and detailed reporting for efficient test automation.
+* [Cucumber](https://cucumber.io/docs/cucumber/) for writing BDD-style tests in Gherkin syntax.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-  Basic understanding of Java with Maven, Selenium and TestNG.
+  Basic understanding of Java with Maven, Selenium, TestNG and Cucumber.
 
 ### Running the project
 Steps are listed below to get this project up and running in your development environment.
@@ -48,10 +51,10 @@ Steps are listed below to get this project up and running in your development en
 
 * Clone this repository in your target folder.
 ```
-git clone https://github.com/lavatech321/SwagLabs_selenium_automation.git
+git clone https://github.com/lavatech321/ParaBank_selenium_automation.git
 ```
 
-* Open _swaglab.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _swaglab.testautomation_ folder. 
+* Open _parabank.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _parabank.testautomation_ folder. 
   
 Optionally, run maven build command if you don't see "Maven Dependencies" folder:
 
