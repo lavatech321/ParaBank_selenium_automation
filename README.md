@@ -62,8 +62,6 @@ mvn clean install
 ```
 
 You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
-
-* Open _swaglab.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _swaglab.testautomation_ folder. 
   
 * Execute the project using below maven command:
 
