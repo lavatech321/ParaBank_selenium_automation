@@ -1,7 +1,7 @@
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Parabank Online Web Application (Data-Driven with Cucumber)</h1> 
+ <h1 align="center">Parabank Online Web Application (Using Selenium & Data-Driven with Cucumber)</h1> 
 
   <p align="center">
     A web automation project to automate testing process of Para Bank Web Application built using Selenium, TestNG and Cucumber in Java.
